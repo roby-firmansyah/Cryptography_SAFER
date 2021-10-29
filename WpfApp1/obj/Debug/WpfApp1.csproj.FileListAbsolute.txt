@@ -1,0 +1,30 @@
+F:\учеба\3 курс 2 сем\КурсовойЗИИНиС\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+F:\учеба\3 курс 2 сем\КурсовойЗИИНиС\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+F:\учеба\3 курс 2 сем\КурсовойЗИИНиС\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+F:\учеба\3 курс 2 сем\КурсовойЗИИНиС\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+F:\учеба\3 курс 2 сем\КурсовойЗИИНиС\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+F:\учеба\3 курс 2 сем\КурсовойЗИИНиС\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+F:\учеба\3 курс 2 сем\КурсовойЗИИНиС\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+F:\учеба\3 курс 2 сем\КурсовойЗИИНиС\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+F:\учеба\3 курс 2 сем\КурсовойЗИИНиС\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+F:\учеба\3 курс 2 сем\КурсовойЗИИНиС\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+F:\учеба\3 курс 2 сем\КурсовойЗИИНиС\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+F:\учеба\3 курс 2 сем\КурсовойЗИИНиС\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+F:\учеба\3 курс 2 сем\КурсовойЗИИНиС\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+F:\учеба\3 курс 2 сем\КурсовойЗИИНиС\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+F:\учеба\3 курс 2 сем\КурсовойЗИИНиС\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\AMD\Downloads\SAFER64-K-master\SAFER64-K-master\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\AMD\Downloads\SAFER64-K-master\SAFER64-K-master\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\AMD\Downloads\SAFER64-K-master\SAFER64-K-master\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\AMD\Downloads\SAFER64-K-master\SAFER64-K-master\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\AMD\Downloads\SAFER64-K-master\SAFER64-K-master\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\AMD\Downloads\SAFER64-K-master\SAFER64-K-master\WpfApp1\obj\Debug\App.g.cs
+C:\Users\AMD\Downloads\SAFER64-K-master\SAFER64-K-master\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\AMD\Downloads\SAFER64-K-master\SAFER64-K-master\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\AMD\Downloads\SAFER64-K-master\SAFER64-K-master\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\AMD\Downloads\SAFER64-K-master\SAFER64-K-master\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\AMD\Downloads\SAFER64-K-master\SAFER64-K-master\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\AMD\Downloads\SAFER64-K-master\SAFER64-K-master\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\AMD\Downloads\SAFER64-K-master\SAFER64-K-master\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\AMD\Downloads\SAFER64-K-master\SAFER64-K-master\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\AMD\Downloads\SAFER64-K-master\SAFER64-K-master\WpfApp1\obj\Debug\WpfApp1.pdb
