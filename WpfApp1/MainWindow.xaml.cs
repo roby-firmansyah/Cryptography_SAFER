@@ -36,11 +36,11 @@ namespace WpfApp1
         {
             em.Text = "";
             if (message.Text == "" )
-                MessageBox.Show("Введите сообщение");
+                MessageBox.Show("Enter your message");
             else if (k.Text == "")
-                MessageBox.Show("Введите ключ");
+                MessageBox.Show("Enter the key");
             else if (k.Text.Length<8)
-                MessageBox.Show("Длина ключа должна быть равна 8");
+                MessageBox.Show("Key length must be 8");
             else
             {
                 mess = message.Text;
@@ -66,11 +66,11 @@ namespace WpfApp1
         private void decrypt_Click(object sender, RoutedEventArgs e)
         {
             if (em.Text == "")
-                MessageBox.Show("Зашифруйте или вставьте зашифрованный текст");
+                MessageBox.Show("Encrypt or paste encrypted text");
             else if (k.Text == "")
-                MessageBox.Show("Введите ключ");
+                MessageBox.Show("Enter the key");
             else if (k.Text.Length < 8)
-                MessageBox.Show("Длина ключа должна быть равна 8");
+                MessageBox.Show("Key length must be 8");
             else
             {
                 key = Encoding.Default.GetBytes(k.Text);
@@ -88,9 +88,9 @@ namespace WpfApp1
         private void kGen_Click(object sender, RoutedEventArgs e)
         {
             if(k.Text=="")
-                MessageBox.Show("Введите ключ");
+                MessageBox.Show("Enter the key");
             else if (k.Text.Length < 8)
-                MessageBox.Show("Длина ключа должна быть равна 8");
+                MessageBox.Show("Key length must be 8");
             else
             {
                 char[] ch = k.Text.ToCharArray();
@@ -124,11 +124,11 @@ namespace WpfApp1
         private void eAlg_Click(object sender, RoutedEventArgs e)
         {
             if (message.Text == "")
-                MessageBox.Show("Введите сообщение");
+                MessageBox.Show("Enter your message");
             else if (k.Text == "")
-                MessageBox.Show("Введите ключ");
+                MessageBox.Show("Enter the key");
             else if (k.Text.Length < 8)
-                MessageBox.Show("Длина ключа должна быть равна 8");
+                MessageBox.Show("Key length must be 8");
             else
             {
                 string m=message.Text;
