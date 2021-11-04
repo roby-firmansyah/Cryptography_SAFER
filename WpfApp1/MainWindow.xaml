@@ -5,21 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="Safer" Height="800" Width="1000"  WindowStartupLocation="CenterScreen">
-    <Grid>
-        <Label Height="40" Width="206" FontSize="20" HorizontalAlignment="Center" Margin="127,0,659,703" VerticalAlignment="Bottom" Content="Enter the message"/>
-        <TextBox x:Name="message" FontSize="15" TextWrapping="Wrap" VerticalScrollBarVisibility="Visible" Margin="0,0,330,575" Height="124" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="536"/>
-        <Label Height="40" FontSize="20" Width="150" HorizontalAlignment="Center" Margin="723,26,119,0" VerticalAlignment="Top" Content="Enter the key" RenderTransformOrigin="0.52,-0.775"/>
-        <TextBox x:Name="k" FontSize="15" MaxLength="8" Margin="0,0,110,672" HorizontalAlignment="Right" Width="159" Height="26" VerticalAlignment="Bottom"/>
-        <Button x:Name="encrypt" Content="Encrypt" FontSize="20" Margin="0,0,110,623" Click="encrypt_Click" HorizontalAlignment="Right" Width="159" Height="37" VerticalAlignment="Bottom"/>
-        <Button x:Name="decrypt" Content="Decrypt" FontSize="20" Margin="0,0,110,575" Click="decrypt_Click" HorizontalAlignment="Right" Width="159" Height="38" VerticalAlignment="Bottom"/>
-        <TextBox x:Name="em" FontSize="15" TextWrapping="Wrap" VerticalScrollBarVisibility="Visible" Margin="0,0,505,395" HorizontalAlignment="Right" Width="361" Height="119" VerticalAlignment="Bottom"/>
-        <Label Height="40" Width="287" FontSize="20" HorizontalAlignment="Right" Margin="0,0,579,514" VerticalAlignment="Bottom" Content="Encrypted message"/>
-        <TextBox x:Name="dm" FontSize="15" TextWrapping="Wrap" VerticalScrollBarVisibility="Visible" Margin="0,0,110,395" Height="120" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="361"/>
-        <Label Height="40" Width="292" FontSize="20" HorizontalAlignment="Right" Margin="0,0,179,514" VerticalAlignment="Bottom" Content="Decrypted message"/>
-        <Button x:Name="kGen" Content="Generating keys" FontSize="20" Margin="0,0,670,323" HorizontalAlignment="Right" Width="196" Height="38" VerticalAlignment="Bottom" Click="kGen_Click"/>
-        <Button x:Name="eAlg" Content="Encryption" FontSize="20" Margin="0,0,392,323" HorizontalAlignment="Right" Width="196" Height="38" VerticalAlignment="Bottom" Click="eAlg_Click"/>
-        <Button x:Name="dAlg" Content="Decryption" FontSize="20" Margin="0,0,110,323" HorizontalAlignment="Right" Width="196" Height="38" VerticalAlignment="Bottom" Click="dAlg_Click"/>
-        <TextBox x:Name="description" VerticalScrollBarVisibility="Visible" IsReadOnly="True" FontSize="17" Margin="0,0,110,10" TextWrapping="Wrap" Height="294" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="756"/>
+        Title="Safer" Height="542" Width="1000"  WindowStartupLocation="CenterScreen">
+    <Grid Margin="0,0,0,199">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="19*"/>
+            <ColumnDefinition Width="105*"/>
+        </Grid.ColumnDefinitions>
+        <Label Height="40" Width="206" FontSize="20" HorizontalAlignment="Center" Margin="0,0,634,207" VerticalAlignment="Bottom" Content="Enter the message" Grid.Column="1"/>
+        <TextBox x:Name="message" FontSize="15" TextWrapping="Wrap" VerticalScrollBarVisibility="Visible" Margin="0,0,315,78" Height="124" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="536" Grid.ColumnSpan="2"/>
+        <Label Height="40" FontSize="20" Width="150" HorizontalAlignment="Center" Margin="586,65,104,0" VerticalAlignment="Top" Content="Enter the key" RenderTransformOrigin="0.52,-0.775" Grid.Column="1"/>
+        <TextBox x:Name="k" FontSize="15" MaxLength="8" Margin="0,0,95,176" HorizontalAlignment="Right" Width="159" Height="26" VerticalAlignment="Bottom" Grid.Column="1"/>
+        <Button x:Name="encrypt" Content="Encrypt" FontSize="20" Margin="0,0,95,121" Click="encrypt_Click" HorizontalAlignment="Right" Width="159" Height="38" VerticalAlignment="Bottom" Grid.Column="1"/>
+        <Button x:Name="decrypt" Content="Decrypt" FontSize="20" Margin="0,0,95,78" Click="decrypt_Click" HorizontalAlignment="Right" Width="159" Height="38" VerticalAlignment="Bottom" Grid.Column="1"/>
+        <TextBox x:Name="em" FontSize="15" TextWrapping="Wrap" VerticalScrollBarVisibility="Visible" Margin="0,0,490,-137" HorizontalAlignment="Right" Width="361" Height="120" VerticalAlignment="Bottom" Grid.ColumnSpan="2"/>
+        <Label Height="40" Width="287" FontSize="20" HorizontalAlignment="Right" Margin="0,0,553,10" VerticalAlignment="Bottom" Content="Encrypted message" Grid.Column="1"/>
+        <TextBox x:Name="dm" FontSize="15" TextWrapping="Wrap" VerticalScrollBarVisibility="Visible" Margin="0,0,95,-137" Height="120" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="361" Grid.Column="1"/>
+        <Label Height="40" Width="292" FontSize="20" HorizontalAlignment="Right" Margin="0,0,164,10" VerticalAlignment="Bottom" Content="Decrypted message" Grid.Column="1"/>
     </Grid>
 </Window>
